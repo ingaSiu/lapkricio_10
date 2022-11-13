@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="log-in-box">
+        <p>Log in</p>
+        <form id="log-in">
+            <label for="userMail">Email</label>
+            <input type="email" name="email" id="user-mail">
+            <label for="password-log">Password</label>
+            <input type="password" name="password" id="password-log">
+            <button type="submit" id="btn-log">Log in</button>
+        </form>
+    </div>
+   <p id="fail-log">Not logged in</p>
+
+    <div id="registration-box">
+        <p>Create account</p>
+        <form id="registration-form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <label for="repeatPassword">Repeat password</label>
+            <input type="password" name="repeatPassword" id="repeat-password">
+            <button type="submit" id="btn-register">Register</button>
+        </form>
+    </div>
+    
+
+    <div id="user-notes">
+        <h1>NOTES</h1>
+        <form id="form-note">
+            <input type="text" id="write-note" name="noteText" placeholder="Write your notes here">
+            <button type="submit">Save Note</button>
+        </form>
+        <div id="notes-box"></div>
+    </div>
+
+    <button id="btn-out" type="submit">Log Out</button>
+</body>
+</html>
